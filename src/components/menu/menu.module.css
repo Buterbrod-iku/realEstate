@@ -1,0 +1,14 @@
+.main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background: #393a3c;
+    padding: 15px 300px;
+}
+.main > p{
+    padding: 0 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: white;
+}

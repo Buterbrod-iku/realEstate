@@ -1,0 +1,31 @@
+.main{
+    width: 100vw;
+    height: 75px;
+    background: #eee9d5;
+    position: relative;
+    display: flex;
+    padding: 0 300px;
+}
+.logo{
+    width: 150px;
+    height: 100%;
+    background-image: url("../../assets/image/logo.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+.contact{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+    margin-left: 5vw;
+    gap: 5px;
+}
+.contact > p{
+    padding: 0 30px;
+    font-size: 0.95em;
+    cursor: pointer;
+    color: #858585;
+}
